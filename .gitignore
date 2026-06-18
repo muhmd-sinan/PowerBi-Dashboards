@@ -1,0 +1,23 @@
+# Claude
+.claude/
+CLAUDE.md
+.claude-mem/
+
+# Dashboard design spec
+DASHBOARD_DESIGN.md
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Power BI temp/cache
+*.pbix.tmp
+~$*.pbix
+
+# Office temp files
+~$*.xlsx
+~$*.docx
+
+# OS
+Thumbs.db
+.DS_Store

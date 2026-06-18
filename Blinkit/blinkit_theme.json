@@ -1,0 +1,25 @@
+{
+  "name": "Blinkit",
+  "dataColors": ["#0C831F", "#F8CB46", "#B8BCC2", "#D64545", "#6BBF59", "#8A8D91", "#E8B62F", "#54595F"],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#0C831F",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#252423" },
+    "callout": { "fontFace": "Segoe UI", "fontSize": 24, "color": "#0C831F" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#252423" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E6E6E6" } }, "radius": 8 }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F4F0" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
